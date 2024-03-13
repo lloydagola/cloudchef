@@ -1,0 +1,66 @@
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px 0;
+}
+.textarea-section {
+  width: 500px;
+  height: 300px;
+  transition: all 0.3s;
+  border-radius: 3px;
+  border: 3px solid #11122b;
+  font-size: 1.2rem;
+  font-family: inherit;
+  color: inherit;
+  padding: 1.5rem 2rem;
+  transition: all 0.3s;
+}
+.generate-btn {
+  width: 570px;
+  height: 35px;
+  margin: 5px 0;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 3px;
+  outline: transparent;
+  transition: all 0.4s ease;
+}
+.generate-btn:hover {
+  background-color: #1a9efd;
+  color: white;
+  border-color: white;
+}
+.name-section {
+  color: rgb(77, 75, 75);
+  font-family: "Rubik", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+}
+.tree-section {
+  justify-content: center;
+  width: 100%;
+  height: 450px;
+}
+.info-statement {
+  font-family: "Rubik", sans-serif;
+  color: green;
+}
+.error-statement {
+  font-family: "Rubik", sans-serif;
+  color: red;
+}
+textarea::-webkit-scrollbar {
+  width: 8px;
+}
+textarea::-webkit-scrollbar-thumb {
+  background-color: #1a8efd;
+  border-radius: 4rem;
+}
+textarea::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
